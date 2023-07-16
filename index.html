@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="conatainer">
+    <div class="container">
         <h1 class="heading">Cash Register</h1>
         <p class="description">
             Enter the bill amount and cash given by the customer and know minimum number of notes to return.
         </p>
-        <label for="bill-amount">Bill Amount:</label>
-        <input id="bill-amount" type="text">      
-        <label for="cash-given">Cash Given:</label>
-        <input id="cash-given" type="text">
-        <button id="check-button">check</button>
+        <label class="label" for="bill-amount">Bill Amount:</label>
+        <input class="input" id="bill-amount" type="text">      
+        <label class="label" for="cash-given">Cash Given:</label>
+        <input class="input" id="cash-given" type="text">
+        <div id="button">
+            <button id="check-button">check</button>        
+        </div>
         <p id="error-message"></p>
         <table class="change-table">
             <caption>Return Changes</caption>

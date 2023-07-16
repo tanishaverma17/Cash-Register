@@ -51,5 +51,9 @@ th,td{
     border: 1px solid blueviolet;
     padding: 0.3rem;
 }
-
-
+.no-of-notes{
+    color: #fff;
+}
+#error-message{
+    color: #fff;
+}
